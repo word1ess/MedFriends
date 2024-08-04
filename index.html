@@ -9,11 +9,11 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
     <meta name="theme-color" content="#ffffff">
-    <link href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css?_v=20240803201508" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css?_v=20240803201508">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240803201508">
-    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js?_v=20240803201508"></script>
-    <script defer src="js/app.min.js?_v=20240803201508"></script>
+    <link href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css?_v=20240804175751" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css?_v=20240804175751">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240804175751">
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js?_v=20240804175751"></script>
+    <script defer src="js/app.min.js?_v=20240804175751"></script>
     <title>Главная</title>
 </head>
 
@@ -35,24 +35,34 @@
                 <p>меню</p>
             </div>
         </nav>
-        <!-- <div class="header__menu">
+        <div class="header__menu">
             <div class="header__links">
-                <a
-                    data-scroll="outsourcing"
-                    href="#"
-                    class="wow bounce"
-                    data-wow-duration="2s"
-                >Аутсорсинг</a>
-                <a data-scroll="how" href="#">Как мы работаем</a>
-                <a data-scroll="advantages" href="#">Преимущества</a>
+                <a data-scroll="intro" href="#">Intro</a>
+                <a data-scroll="directions" href="#">directions</a>
+                <a data-scroll="check-up" href="#">check-up</a>
                 <a data-scroll="vacancies" href="#">Вакансии</a>
                 <a data-scroll="services" href="#services">Услуги</a>
                 <a data-scroll="faq" href="#">FAQ</a>
             </div>
-            <a data-scroll="form" class="header__btn btn">Обратный звонок</a>
-        </div> -->
+            <div class="phone">
+                <a href="tel:+7 (495)129-95-59">+7 (495)129-95-59</a>
+                <p>г. Москва, 1-й Нагатинский проезд, д.11 к.1</p>
+            </div>
+        </div>
     </div>
 </header>
+<svg display="none">
+    <symbol id="arrow" viewBox="0 0 21 12">
+        <g>
+            <path
+                d="M19.5 6L14.5 1M19.5 6L14.5 11M19.5 6H1.5"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            />
+        </g>
+    </symbol>
+</svg>
 
             <main class="content">
                 <article class="intro block-with-fixed block-with-bg">
@@ -96,7 +106,10 @@
                 </article>
                 <section class="directions section">
                     <article class="directions__item big block-with-bg wow fadeInDown btn-antiage">
-                        <h2>Антивозрастная медицина</h2>
+                        <h2>
+                            Антивозрастная медицина
+                            <span>></span>
+                        </h2>
                         <ul>
                             <li>Ингаляция "Anti-age"</li>
                             <li>Интервальная гипо-гиперокситерапии</li>
@@ -109,7 +122,10 @@
                         <picture><source srcset="img/index/directions/1.webp" type="image/webp"><img src="img/index/directions/1.png" alt=""></picture>
                     </article>
                     <article class="directions__item block-with-bg wow fadeInLeft btn-pain">
-                        <h2>Лечение боли</h2>
+                        <h2>
+                            Лечение боли
+                            <span>></span>
+                        </h2>
                         <ul>
                             <li>Внутритканевая электростимуляция</li>
                             <li>Плазмотерапия в неврологии</li>
@@ -120,7 +136,10 @@
                         <picture><source srcset="img/index/directions/2.webp" type="image/webp"><img src="img/index/directions/2.png" alt=""></picture>
                     </article>
                     <article class="directions__item block-with-bg wow fadeInRight btn-micro">
-                        <h2>Восстановление микробиоты</h2>
+                        <h2>
+                            Восстановление микробиоты
+                            <span>></span>
+                        </h2>
                         <ul>
                             <li>Дуоденальное зондирование лечебно-диагностическое</li>
                             <li>Гидроколонотерапия</li>
@@ -131,7 +150,10 @@
                         <picture><source srcset="img/index/directions/3.webp" type="image/webp"><img src="img/index/directions/3.png" alt=""></picture>
                     </article>
                     <article class="directions__item block-with-bg wow fadeInLeft btn-balans">
-                        <h2>Гормональный баланс</h2>
+                        <h2>
+                            Гормональный баланс
+                            <span>></span>
+                        </h2>
                         <ul>
                             <li>IV-Комплекс Жиросжигающий</li>
                             <li>Транскраниальная электротерапия</li>
@@ -142,7 +164,10 @@
                         <picture><source srcset="img/index/directions/4.webp" type="image/webp"><img src="img/index/directions/4.png" alt=""></picture>
                     </article>
                     <article class="directions__item block-with-bg wow fadeInRight btn-estetic">
-                        <h2>Эстетическая косметология</h2>
+                        <h2>
+                            Эстетическая косметология
+                            <span>></span>
+                        </h2>
                         <ul>
                             <li>Безинъекционная мезотерапия на аппарате Dermadrop</li>
                             <li>Лазерная шлифовка</li>
@@ -153,7 +178,10 @@
                         <picture><source srcset="img/index/directions/5.webp" type="image/webp"><img src="img/index/directions/5.png" alt=""></picture>
                     </article>
                     <article class="directions__item big block-with-bg wow fadeInUp btn-wellness">
-                        <h2>Wellness</h2>
+                        <h2>
+                            Wellness
+                            <span>></span>
+                        </h2>
                         <ul>
                             <li>SPA – Комплекс Thalasso Bretagne "Relax"/"Detox"/"Recovery"</li>
                             <li>Обертывание "МираВит"/ Thalasso Bretagne/ бандажное T-SHOCK</li>
@@ -244,7 +272,7 @@
                     </header>
                     <div class="programs__swiper swiper">
                         <main class="swiper-wrapper programs__row">
-                            <article class="swiper-slide programs__item block-with-bg big">
+                            <article class="swiper-slide programs__item block-with-bg big btn-programPain">
                                 <h3>Управляй болью</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/1.webp" type="image/webp"><img src="img/index/programs/1.png" alt=""></picture>
@@ -353,6 +381,9 @@
                         </main>
                         <button class="programs__more more">
                             смотреть все лечебные программы
+                            <svg>
+                                <use xlink:href="#arrow"></use>
+                            </svg>
                         </button>
                     </div>
                     <div class="swiper-button-prev programs__prev"></div>
@@ -431,7 +462,9 @@
                                 <h2 class="text-brown">Бальнеотерапия</h2>
                                 <a href="#" class="more btn-tabBal">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -456,7 +489,9 @@
                                 <h2 class="text-brown"> Массаж медицинский лечебный ручной</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -481,7 +516,9 @@
                                 <h2 class="text-brown"> Гастропрофиль</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -506,7 +543,9 @@
                                 <h2 class="text-brown"> Ингаляционная терапия</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -531,7 +570,9 @@
                                 <h2 class="text-brown">Инъекционная терапия</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -556,7 +597,9 @@
                                 <h2 class="text-brown">Плазмотерапия</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -581,7 +624,9 @@
                                 <h2 class="text-brown">Карбокситерапия</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -606,7 +651,9 @@
                                 <h2 class="text-brown">Консультации</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -631,7 +678,9 @@
                                 <h2 class="text-brown">Лабораторная диагностика</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -656,7 +705,9 @@
                                 <h2 class="text-brown">Рефлексотерапияа</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -681,7 +732,9 @@
                                 <h2 class="text-brown">Физиотерапия</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -706,7 +759,9 @@
                                 <h2 class="text-brown">Функциональная диагностика</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -731,7 +786,9 @@
                                 <h2 class="text-brown"> Ультразвуковая диагностика</h2>
                                 <a href="#" class="more">
                                     Узнать подробнее
-                                    <img src="img/svgicons/arrow-left.svg" alt="" class="arrow">
+                                    <svg>
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
                                 </a>
                             </header>
                             <ul class="services__main">
@@ -757,7 +814,7 @@
                 </article>
                 <section class="modul section">
                     <header class="block-header center">
-                        <h2>Лечебные программы</h2>
+                        <h2>Модуль красоты</h2>
                     </header>
                     <main class="modul__row">
                         <article class="modul__item block-with-bg btn-modulSpa">
@@ -810,19 +867,22 @@
                     <header class="block-header center">
                         <h2>Для кого наши услуги</h2>
                     </header>
-                    <picture><source srcset="img/index/for/bg.webp" type="image/webp"><img src="img/index/for/bg.png" alt="" class="for__img"></picture>
                     <main class="for__steps">
                         <article class="for__step">
                             <p>Для семей, думающих о завтрашнем дне</p>
+                            <picture><source srcset="img/index/for/bg.webp" type="image/webp"><img src="img/index/for/bg.png" alt="" class="for__img"></picture>
                         </article>
                         <article class="for__step">
                             <p>Для семей, думающих о завтрашнем дне</p>
+                            <picture><source srcset="img/index/for/bg.webp" type="image/webp"><img src="img/index/for/bg.png" alt="" class="for__img"></picture>
                         </article>
                         <article class="for__step">
                             <p>Для семей, думающих о завтрашнем дне</p>
+                            <picture><source srcset="img/index/for/bg.webp" type="image/webp"><img src="img/index/for/bg.png" alt="" class="for__img"></picture>
                         </article>
                         <article class="for__step">
                             <p>Для семей, думающих о завтрашнем дне</p>
+                            <picture><source srcset="img/index/for/bg.webp" type="image/webp"><img src="img/index/for/bg.png" alt="" class="for__img"></picture>
                         </article>
                     </main>
                 </section>
@@ -1590,6 +1650,58 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-programPain">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
