@@ -1809,7 +1809,7 @@ body {
 
 .wrapper {
   min-height: 100%;
-  overflow: hidden;
+/*   overflow: hidden; */
   position: relative;
   display: flex;
   flex-direction: column;
