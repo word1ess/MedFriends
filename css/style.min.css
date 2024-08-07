@@ -1961,7 +1961,7 @@ body {
   }
 }
 @media only screen and (max-width: 992px) {
-  .wrapper {
+  .wrapper, .block-with-bg__big {
     overflow: hidden;
   }
   .section,
