@@ -1859,6 +1859,9 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+body.fixed {
+  overflow: hidden;
+}
 
 .wrapper {
   min-height: 100%;
@@ -2436,6 +2439,9 @@ body {
   .team__next, .team__prev {
     display: flex;
     bottom: 80px;
+  }
+  .dialogbox__with-image img {
+    display: none;
   }
   .advantages {
     padding-top: 0px;
