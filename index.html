@@ -9,14 +9,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css?_v=20240807235440">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css?_v=20240807235440">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?_v=20240807235440">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240807235440">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20240807235440"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?_v=20240807235440"></script>
-    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js?_v=20240807235440"></script>
-    <script defer src="js/app.min.js?_v=20240807235440"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css?_v=20240813140452">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css?_v=20240813140452">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?_v=20240813140452">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240813140452">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20240813140452"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?_v=20240813140452"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js?_v=20240813140452"></script>
+    <script defer src="js/app.min.js?_v=20240813140452"></script>
     <title>Главная</title>
 </head>
 
@@ -40,12 +40,16 @@
         </nav>
         <div class="header__menu">
             <div class="header__links">
-                <a data-scroll="intro" href="#">Intro</a>
-                <a data-scroll="directions" href="#">directions</a>
-                <a data-scroll="check-up" href="#">check-up</a>
-                <a data-scroll="vacancies" href="#">Вакансии</a>
-                <a data-scroll="services" href="#services">Услуги</a>
-                <a data-scroll="faq" href="#">FAQ</a>
+                <a data-scroll="directions" href="#">Наши направления</a>
+                <a data-scroll="check-up" href="#">Check Up</a>
+                <a data-scroll="programs" href="#">Лечебные программы</a>
+                <a data-scroll="services" href="#">Терапия</a>
+                <a data-scroll="modul" href="#">Модуль красоты</a>
+                <a data-scroll="photogallery" href="#">Фото клиники</a>
+                <a data-scroll="team" href="#">Наш коллектив</a>
+                <a data-scroll="advantages" href="#">Преимущества</a>
+                <a data-scroll="reviews" href="#">Отзывы</a>
+                <a data-scroll="contacts" href="#">Контакты</a>
             </div>
             <div class="phone">
                 <a href="tel:+7 (495)129-95-59">+7 (495)129-95-59</a>
@@ -79,7 +83,7 @@
                             превентивной медицины
                         </h1>
                         <h2 class="subtitle wow fadeInDown">с премиальным сервисом для всей семьи</h2>
-                        <button class="btn-round pulse">Онлайн-запись</button>
+                        <button class="btn-round pulse" data-scroll="consultation">Онлайн-запись</button>
                     </main>
                 </article>
                 <section class="sub-intro section">
@@ -111,7 +115,7 @@
                     </main>
                 </article>
                 <section class="directions section">
-                    <article class="directions__item big block-with-bg wow fadeInDown btn-antiage">
+                    <article class="directions__item big block-with-bg wow fadeInDown btn-directions-1">
                         <h2>
                             Антивозрастная медицина
                             <span>></span>
@@ -127,7 +131,7 @@
                         </ul>
                         <picture><source srcset="img/index/directions/1.webp" type="image/webp"><img loading="lazy" src="img/index/directions/1.png" alt=""></picture>
                     </article>
-                    <article class="directions__item block-with-bg wow fadeInLeft btn-pain">
+                    <article class="directions__item block-with-bg wow fadeInLeft btn-directions-2">
                         <h2>
                             Лечение боли
                             <span>></span>
@@ -141,7 +145,7 @@
                         </ul>
                         <picture><source srcset="img/index/directions/2.webp" type="image/webp"><img loading="lazy" src="img/index/directions/2.png" alt=""></picture>
                     </article>
-                    <article class="directions__item block-with-bg wow fadeInRight btn-micro">
+                    <article class="directions__item block-with-bg wow fadeInRight btn-directions-3">
                         <h2>
                             Восстановление микробиоты
                             <span>></span>
@@ -155,7 +159,7 @@
                         </ul>
                         <picture><source srcset="img/index/directions/3.webp" type="image/webp"><img loading="lazy" src="img/index/directions/3.png" alt=""></picture>
                     </article>
-                    <article class="directions__item block-with-bg wow fadeInLeft btn-balans">
+                    <article class="directions__item block-with-bg wow fadeInLeft btn-directions-4">
                         <h2>
                             Гормональный баланс
                             <span>></span>
@@ -169,7 +173,7 @@
                         </ul>
                         <picture><source srcset="img/index/directions/4.webp" type="image/webp"><img loading="lazy" src="img/index/directions/4.png" alt=""></picture>
                     </article>
-                    <article class="directions__item block-with-bg wow fadeInRight btn-estetic">
+                    <article class="directions__item block-with-bg wow fadeInRight btn-directions-5">
                         <h2>
                             Эстетическая косметология
                             <span>></span>
@@ -183,7 +187,7 @@
                         </ul>
                         <picture><source srcset="img/index/directions/5.webp" type="image/webp"><img loading="lazy" src="img/index/directions/5.png" alt=""></picture>
                     </article>
-                    <article class="directions__item big block-with-bg wow fadeInUp btn-wellness">
+                    <article class="directions__item big block-with-bg wow fadeInUp btn-directions-6">
                         <h2>
                             Wellness
                             <span>></span>
@@ -209,7 +213,7 @@
                             Семейное SPA
                         </h2>
                         <h2 class="subtitle">Это идеальное место для совместного отдыха родителей и детей, где каждый найдёт процедуры по душе и ощутит гармонию и спокойствие.</h2>
-                        <button class="btn-round">подробнее</button>
+                        <button class="btn-round btn-forms btn-forms-1">подробнее</button>
                     </main>
                 </article>
                 <article class="complex-intro block-with-fixed block-with-bg">
@@ -221,35 +225,35 @@
                 </article>
                 <section class="check-up section">
                     <header class="block-header center">
-                        <h2>Check Up</h2>
+                        <h2 class="wow fadeInDown">Check Up</h2>
                     </header>
                     <main class="check-up__row">
-                        <article class="check-up__item block-with-bg btn-checkwoman">
+                        <article class="check-up__item block-with-bg btn-checkup-1 wow fadeInLeft">
                             <h3>Женский</h3>
                             <p>Базовая проверка основных показателей функционирования организма</p>
                             <picture><source srcset="img/index/checkup/1.webp" type="image/webp"><img loading="lazy" src="img/index/checkup/1.png" alt=""></picture>
                         </article>
-                        <article class="check-up__item block-with-bg btn-checkman">
+                        <article class="check-up__item block-with-bg btn-checkup-2 wow fadeInLeft" data-wow-delay="100ms">
                             <h3>Мужской</h3>
                             <p>Базовая проверка основных показателей функционирования организма</p>
                             <picture><source srcset="img/index/checkup/2.webp" type="image/webp"><img loading="lazy" src="img/index/checkup/2.png" alt=""></picture>
                         </article>
-                        <article class="check-up__item block-with-bg btn-checkkid">
+                        <article class="check-up__item block-with-bg btn-checkup-3 wow fadeInLeft" data-wow-delay="200ms">
                             <h3>Подростковый</h3>
                             <p>Базовая проверка основных показателей функционирования организма</p>
                             <picture><source srcset="img/index/checkup/3.webp" type="image/webp"><img loading="lazy" src="img/index/checkup/3.png" alt=""></picture>
                         </article>
-                        <article class="check-up__item block-with-bg btn-checkcardio">
+                        <article class="check-up__item block-with-bg btn-checkup-4 wow fadeInRight">
                             <h3>Кардиологический</h3>
                             <p>Базовая проверка основных показателей функционирования организма</p>
                             <picture><source srcset="img/index/checkup/4.webp" type="image/webp"><img loading="lazy" src="img/index/checkup/4.png" alt=""></picture>
                         </article>
-                        <article class="check-up__item block-with-bg btn-checkonko">
+                        <article class="check-up__item block-with-bg btn-checkup-5 wow fadeInRight" data-wow-delay="100ms">
                             <h3>Профилактика Онко</h3>
                             <p>Базовая проверка основных показателей функционирования организма</p>
                             <picture><source srcset="img/index/checkup/5.webp" type="image/webp"><img loading="lazy" src="img/index/checkup/5.png" alt=""></picture>
                         </article>
-                        <article class="check-up__item block-with-bg btn-checkprof">
+                        <article class="check-up__item block-with-bg btn-checkup-6 wow fadeInRight" data-wow-delay="200ms">
                             <h3>Профилактика остеопороза</h3>
                             <p>Базовая проверка основных показателей функционирования организма</p>
                             <picture><source srcset="img/index/checkup/6.webp" type="image/webp"><img loading="lazy" src="img/index/checkup/6.png" alt=""></picture>
@@ -269,7 +273,7 @@
                         <h2 class="subtitle">
                             Это идеальное место для совместного отдыха родителей и детей, где каждый найдёт процедуры по душе и ощутит гармонию и спокойствие.
                         </h3>
-                        <button class="btn-round">подробнее</button>
+                        <button class="btn-round btn-forms btn-forms-2">подробнее</button>
                     </main>
                 </article>
                 <section class="programs section">
@@ -278,47 +282,47 @@
                     </header>
                     <div class="programs__swiper swiper">
                         <main class="swiper-wrapper programs__row">
-                            <article class="swiper-slide programs__item block-with-bg big btn-programPain">
+                            <article class="swiper-slide programs__item btn-program-1 block-with-bg big">
                                 <h3>Управляй болью</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/1.webp" type="image/webp"><img loading="lazy" src="img/index/programs/1.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg">
+                            <article class="swiper-slide programs__item btn-program-2 block-with-bg">
                                 <h3>Кардио-норма</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/2.webp" type="image/webp"><img loading="lazy" src="img/index/programs/2.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg">
+                            <article class="swiper-slide programs__item btn-program-3 block-with-bg">
                                 <h3>Вместе против стресса</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/3.webp" type="image/webp"><img loading="lazy" src="img/index/programs/3.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg">
+                            <article class="swiper-slide programs__item btn-program-4 block-with-bg">
                                 <h3>Легкий вес</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/4.webp" type="image/webp"><img loading="lazy" src="img/index/programs/4.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg">
+                            <article class="swiper-slide programs__item btn-program-5 block-with-bg">
                                 <h3>Верни друга (иммунитет)</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/5.webp" type="image/webp"><img loading="lazy" src="img/index/programs/5.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg">
+                            <article class="swiper-slide programs__item btn-program-6 block-with-bg">
                                 <h3>Детокс</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/6.webp" type="image/webp"><img loading="lazy" src="img/index/programs/6.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg big">
+                            <article class="swiper-slide programs__item btn-program-7 block-with-bg big">
                                 <h3>Ренессанс Био</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/7.webp" type="image/webp"><img loading="lazy" src="img/index/programs/7.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-8 block-with-bg block-hidden">
                                 <h3> Долой морщины</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/8.webp" type="image/webp"><img loading="lazy" src="img/index/programs/8.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-9 block-with-bg block-hidden">
                                 <h3>
                                     Против синих кругов 
                                     и мешков под глазами
@@ -326,12 +330,12 @@
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/9.webp" type="image/webp"><img loading="lazy" src="img/index/programs/9.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-10 block-with-bg block-hidden">
                                 <h3>Детокс водоросли</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/10.webp" type="image/webp"><img loading="lazy" src="img/index/programs/10.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg big block-hidden">
+                            <article class="swiper-slide programs__item btn-program-11 block-with-bg big block-hidden">
                                 <h3>
                                     Коуч-сессия специалиста 
                                     по здоровому образу жизни
@@ -339,29 +343,29 @@
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/11.webp" type="image/webp"><img loading="lazy" src="img/index/programs/11.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-12 block-with-bg block-hidden">
                                 <h3>Составление индивидуальной программы по оздоровлению</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/12.webp" type="image/webp"><img loading="lazy" src="img/index/programs/12.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-13 block-with-bg block-hidden">
                                 <h3>Программа Остеопороз</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/13.webp" type="image/webp"><img loading="lazy" src="img/index/programs/13.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-14 block-with-bg block-hidden">
                                 <h3>
                                     Гормональный профиль
                                 </h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/14.webp" type="image/webp"><img loading="lazy" src="img/index/programs/14.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-15 block-with-bg block-hidden">
                                 <h3>Биохакинг мозга</h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/15.webp" type="image/webp"><img loading="lazy" src="img/index/programs/15.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-16 block-with-bg block-hidden">
                                 <h3>
                                     Реабилитация 
                                     после Ковид-19
@@ -369,14 +373,14 @@
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/16.webp" type="image/webp"><img loading="lazy" src="img/index/programs/16.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-17 block-with-bg block-hidden">
                                 <h3>
                                     Детская программа 6+
                                 </h3>
                                 <p>Базовая проверка основных показателей функционирования организма</p>
                                 <picture><source srcset="img/index/programs/17.webp" type="image/webp"><img loading="lazy" src="img/index/programs/17.png" alt=""></picture>
                             </article>
-                            <article class="swiper-slide programs__item block-with-bg block-hidden">
+                            <article class="swiper-slide programs__item btn-program-18 block-with-bg block-hidden">
                                 <h3>
                                     Программа 
                                     анализов экспресс
@@ -471,7 +475,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Бальнеотерапия</h2>
-                                <a href="#" class="more btn-tabBal">
+                                <a href="#" class="more btn-tab-1">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -503,7 +507,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown"> Массаж медицинский лечебный ручной</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-2">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -535,7 +539,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown"> Гастропрофиль</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-3">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -567,7 +571,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown"> Ингаляционная терапия</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-4">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -599,7 +603,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Инъекционная терапия</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-5">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -631,7 +635,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Плазмотерапия</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-6">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -663,7 +667,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Карбокситерапия</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-7">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -695,7 +699,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Консультации</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-8">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -727,7 +731,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Лабораторная диагностика</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-9">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -759,7 +763,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Рефлексотерапияа</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-10">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -791,7 +795,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Физиотерапия</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-11">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -823,7 +827,7 @@
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
                                 <h2 class="text-brown">Функциональная диагностика</h2>
-                                <a href="#" class="more">
+                                <a href="#" class="more btn-tab-12">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -854,8 +858,8 @@
                             </button>
                             <picture><source srcset="img/index/services/tab-5.webp" type="image/webp"><img loading="lazy" src="img/index/services/tab-5.png" alt=""></picture>
                             <header class="services__header">
-                                <h2 class="text-brown"> Ультразвуковая диагностика</h2>
-                                <a href="#" class="more">
+                                <h2 class="text-brown">Функциональная диагностика</h2>
+                                <a href="#" class="more btn-tab-13">
                                     Узнать подробнее
                                     <svg>
                                         <use xlink:href="#arrow"></use>
@@ -888,17 +892,17 @@
                         <h2>Модуль красоты</h2>
                     </header>
                     <main class="modul__row">
-                        <article class="modul__item block-with-bg btn-modulSpa">
+                        <article class="modul__item btn-modul-1 block-with-bg wow fadeInLeft">
                             <h3>SPA-услуги</h3>
                             <p>SPA – Комплекc | Обертывание | Пилинг | Гидромассаж сухой | Флоатинг | Термо-SPA</p>
                             <picture><source srcset="img/index/modul/1.webp" type="image/webp"><img loading="lazy" src="img/index/modul/1.png" alt=""></picture>
                         </article>
-                        <article class="modul__item block-with-bg">
+                        <article class="modul__item btn-modul-2 block-with-bg wow fadeInRight">
                             <h3>Массаж эстетический</h3>
                             <p>Аппаратный «ICOON Laser»| Ручной косметологический</p>
                             <picture><source srcset="img/index/modul/2.webp" type="image/webp"><img loading="lazy" src="img/index/modul/2.png" alt=""></picture>
                         </article>
-                        <article class="modul__item block-with-bg big">
+                        <article class="modul__item btn-modul-3 block-with-bg big wow fadeInUp">
                             <h3>Косметология</h3>
                             <p>Аппаратная | Инъекционная | Эстетическая косметология</p>
                             <picture><source srcset="img/index/modul/3.webp" type="image/webp"><img loading="lazy" src="img/index/modul/3.png" alt=""></picture>
@@ -939,7 +943,7 @@
                         <h2>Для кого наши услуги</h2>
                     </header>
                     <main class="for__steps">
-                        <article class="for__step">
+                        <article class="for__step wow fadeInRight">
                             <p>Для семей, думающих о завтрашнем дне</p>
                             <img
                                 loading="lazy"
@@ -948,7 +952,7 @@
                                 class="for__img"
                             >
                         </article>
-                        <article class="for__step">
+                        <article class="for__step wow fadeInRight" data-wow-delay="200ms">
                             <p>Для семей, думающих о завтрашнем дне</p>
                             <img
                                 loading="lazy"
@@ -957,7 +961,7 @@
                                 class="for__img"
                             >
                         </article>
-                        <article class="for__step">
+                        <article class="for__step wow fadeInRight" data-wow-delay="400ms">
                             <p>Для семей, думающих о завтрашнем дне</p>
                             <img
                                 loading="lazy"
@@ -966,7 +970,7 @@
                                 class="for__img"
                             >
                         </article>
-                        <article class="for__step">
+                        <article class="for__step wow fadeInRight" data-wow-delay="600ms">
                             <p>Для семей, думающих о завтрашнем дне</p>
                             <img
                                 loading="lazy"
@@ -1027,10 +1031,10 @@
                 </article>
                 <section class="mission section">
                     <main class="mission__row">
-                        <div class="mission__img">
+                        <div class="mission__img wow fadeInLeft">
                             <picture><source srcset="img/index/mission/bg-small.webp" type="image/webp"><img loading="lazy" src="img/index/mission/bg-small.png" alt=""></picture>
                         </div>
-                        <div class="mission__info">
+                        <div class="mission__info wow fadeInDown" data-wow-delay="200ms">
                             <header class="block-header">
                                 <h2>Наша миссия</h2>
                             </header>
@@ -1038,7 +1042,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur. In duis eget lacinia phasellus interdum in. Aenean amet morbi sed sit vel id odio vestibulum massa. Vitae sed ligula vel ullamcorper lorem ut ut.</p>
                         </div>
                     </main>
-                    <blockquote>
+                    <blockquote class="wow fadeInUp">
                         <q>“Вы никогда не сумеете решить возникшую проблему, если сохраните, то же мышление и тот же подход, который привел вас к этой проблеме”</q>
                         <cite>– Альберт Эйнштейн</cite>
                     </blockquote>
@@ -1049,40 +1053,81 @@
                     </header>
                     <div class="swiper team__swiper">
                         <main class="swiper-wrapper team__row">
-                            <article class="swiper-slide team__item big ">
-                                <picture><source srcset="img/index/team/1.webp" type="image/webp"><img loading="lazy" src="img/index/team/1.png" alt=""></picture>
-                                <h3>Аббасов Рузигар Джаханович</h3>
-                                <p>главный врач, врач-терапевт, врач УЗИ диагностики</p>
+                            <article class="swiper-slide team__item big">
+                                <img
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/1.png"
+                                    alt=""
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="200ms">Аббасов Рузигар Джаханович</h3>
+                                <p class="wow fadeInDown" data-wow-delay="400ms">главный врач, врач-терапевт, врач УЗИ диагностики</p>
                             </article>
                             <article class="swiper-slide team__item">
-                                <picture><source srcset="img/index/team/2.webp" type="image/webp"><img loading="lazy" src="img/index/team/2.png" alt=""></picture>
-                                <h3>Аббасова Ольга Анатольевна</h3>
-                                <p>главная медицинская сестра</p>
+                                <img
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/2.png"
+                                    alt=""
+                                    data-wow-delay="100ms"
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="300ms">Аббасова Ольга Анатольевна</h3>
+                                <p class="wow fadeInDown" data-wow-delay="500ms">главная медицинская сестра</p>
                             </article>
                             <article class="swiper-slide team__item">
-                                <picture><source srcset="img/index/team/3.webp" type="image/webp"><img loading="lazy" src="img/index/team/3.png" alt=""></picture>
-                                <h3>Агейченко Вероника Дмитриевна</h3>
-                                <p>врач-невролог</p>
+                                <img
+                                    data-wow-delay="100ms"
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/3.png"
+                                    alt=""
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="300ms">Агейченко Вероника Дмитриевна</h3>
+                                <p class="wow fadeInDown" data-wow-delay="500ms">врач-невролог</p>
                             </article>
                             <article class="swiper-slide team__item">
-                                <picture><source srcset="img/index/team/4.webp" type="image/webp"><img loading="lazy" src="img/index/team/4.png" alt=""></picture>
-                                <h3>Аглиева Ирина</h3>
-                                <p>медицинская сестра по косметологии</p>
+                                <img
+                                    data-wow-delay="100ms"
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/4.png"
+                                    alt=""
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="200ms">Аглиева Ирина</h3>
+                                <p class="wow fadeInDown" data-wow-delay="400ms">медицинская сестра по косметологии</p>
                             </article>
                             <article class="swiper-slide team__item">
-                                <picture><source srcset="img/index/team/5.webp" type="image/webp"><img loading="lazy" src="img/index/team/5.png" alt=""></picture>
-                                <h3>Смирнова Галина Евгеньевна</h3>
-                                <p>врач-эндокринолог</p>
+                                <img
+                                    data-wow-delay="100ms"
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/5.png"
+                                    alt=""
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="200ms">Смирнова Галина Евгеньевна</h3>
+                                <p class="wow fadeInDown" data-wow-delay="400ms">врач-эндокринолог</p>
                             </article>
                             <article class="swiper-slide team__item">
-                                <picture><source srcset="img/index/team/6.webp" type="image/webp"><img loading="lazy" src="img/index/team/6.png" alt=""></picture>
-                                <h3>Оршич Жанна Александровна</h3>
-                                <p>врач-гастроэнтеролог</p>
+                                <img
+                                    data-wow-delay="100ms"
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/6.png"
+                                    alt=""
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="200ms">Оршич Жанна Александровна</h3>
+                                <p class="wow fadeInDown" data-wow-delay="400ms">врач-гастроэнтеролог</p>
                             </article>
                             <article class="swiper-slide team__item">
-                                <picture><source srcset="img/index/team/7.webp" type="image/webp"><img loading="lazy" src="img/index/team/7.png" alt=""></picture>
-                                <h3>Оршич Жанна Александровна</h3>
-                                <p>врач-гастроэнтеролог</p>
+                                <img
+                                    data-wow-delay="100ms"
+                                    class="wow fadeIn"
+                                    loading="lazy"
+                                    src="img/index/team/7.png"
+                                    alt=""
+                                >
+                                <h3 class="wow fadeInDown" data-wow-delay="200ms">Оршич Жанна Александровна</h3>
+                                <p class="wow fadeInDown" data-wow-delay="400ms">врач-гастроэнтеролог</p>
                             </article>
                         </main>
                     </div>
@@ -1183,7 +1228,7 @@
                     <div class="swiper-button-next reviews__next"></div>
                 </section>
                 <article class="faq article">
-                    <header class="block-header">
+                    <header class="block-header wow fadeInLeft">
                         <h2>
                             Часто задаваемые
                             <br>
@@ -1191,19 +1236,19 @@
                         </h2>
                     </header>
                     <main class="faq__slides one">
-                        <article class="faq__slide">
+                        <article class="faq__slide wow fadeInRight" data-wow-delay="200ms">
                             <div class="faq__answer">Lorem ipsum dolor sit amet consectetur. In lectus risus et urna at.</div>
                             <div class="faq__hidden">Lorem ipsum dolor sit amet consectetur. Et convallis mauris tincidunt id auctor porttitor gravida. Ac cras facilisi lectus aliquam odio. Nam nisl ut vitae in tincidunt mauris volutpat eu ac. Et amet enim at vitae viverra tellus blandit lectus suscipit. Facilisis leo commodo odio quis quam volutpat id. Ullamcorper velit eget enim lacus aliquam dolor.</div>
                         </article>
-                        <article class="faq__slide">
+                        <article class="faq__slide wow fadeInRight" data-wow-delay="400ms">
+                            <div class="faq__answer wow fadeInLeft">Lorem ipsum dolor sit amet consectetur. In lectus risus et urna at.</div>
+                            <div class="faq__hidden">Lorem ipsum dolor sit amet consectetur. Et convallis mauris tincidunt id auctor porttitor gravida. Ac cras facilisi lectus aliquam odio. Nam nisl ut vitae in tincidunt mauris volutpat eu ac. Et amet enim at vitae viverra tellus blandit lectus suscipit. Facilisis leo commodo odio quis quam volutpat id. Ullamcorper velit eget enim lacus aliquam dolor.</div>
+                        </article>
+                        <article class="faq__slide wow fadeInRight" data-wow-delay="600ms">
                             <div class="faq__answer">Lorem ipsum dolor sit amet consectetur. In lectus risus et urna at.</div>
                             <div class="faq__hidden">Lorem ipsum dolor sit amet consectetur. Et convallis mauris tincidunt id auctor porttitor gravida. Ac cras facilisi lectus aliquam odio. Nam nisl ut vitae in tincidunt mauris volutpat eu ac. Et amet enim at vitae viverra tellus blandit lectus suscipit. Facilisis leo commodo odio quis quam volutpat id. Ullamcorper velit eget enim lacus aliquam dolor.</div>
                         </article>
-                        <article class="faq__slide">
-                            <div class="faq__answer">Lorem ipsum dolor sit amet consectetur. In lectus risus et urna at.</div>
-                            <div class="faq__hidden">Lorem ipsum dolor sit amet consectetur. Et convallis mauris tincidunt id auctor porttitor gravida. Ac cras facilisi lectus aliquam odio. Nam nisl ut vitae in tincidunt mauris volutpat eu ac. Et amet enim at vitae viverra tellus blandit lectus suscipit. Facilisis leo commodo odio quis quam volutpat id. Ullamcorper velit eget enim lacus aliquam dolor.</div>
-                        </article>
-                        <article class="faq__slide">
+                        <article class="faq__slide wow fadeInRight" data-wow-delay="800ms">
                             <div class="faq__answer">Lorem ipsum dolor sit amet consectetur. In lectus risus et urna at.</div>
                             <div class="faq__hidden">Lorem ipsum dolor sit amet consectetur. Et convallis mauris tincidunt id auctor porttitor gravida. Ac cras facilisi lectus aliquam odio. Nam nisl ut vitae in tincidunt mauris volutpat eu ac. Et amet enim at vitae viverra tellus blandit lectus suscipit. Facilisis leo commodo odio quis quam volutpat id. Ullamcorper velit eget enim lacus aliquam dolor.</div>
                         </article>
@@ -1246,27 +1291,27 @@
                     </header>
                     <main class="contacts__row">
                         <div class="contacts__info">
-                            <h3 class="text-brown">Как нас найти</h3>
-                            <div class="phone">
+                            <h3 class="text-brown wow fadeInDown">Как нас найти</h3>
+                            <div class="phone wow fadeInDown" data-wow-delay="100ms">
                                 <a href="tel:+7 (495)129-95-59">+7 (495)129-95-59</a>
                                 <p>с 9:00 до 21:00 ежедневно</p>
                             </div>
-                            <a href="mailto:info@mfclinic.ru" class="mail">info@mfclinic.ru</a>
-                            <p>г. Москва, 1-й Нагатинский проезд, д.11 к.1</p>
-                            <a href="#" class="how-address">Как пройти?</a>
+                            <a href="mailto:info@mfclinic.ru" class="mail wow fadeInDown" data-wow-delay="150ms">info@mfclinic.ru</a>
+                            <p class="wow fadeInDown" data-wow-delay="300ms">г. Москва, 1-й Нагатинский проезд, д.11 к.1</p>
+                            <a href="#" class="how-address wow fadeInDown" data-wow-delay="450ms">Как пройти?</a>
                             <article class="socials">
-                                <a href="#">
+                                <a href="#" class="wow fadeIn" data-wow-delay="600ms">
                                     <img loading="lazy" src="img/svgicons/vk.svg" alt="vk">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="wow fadeIn" data-wow-delay="700ms">
                                     <img loading="lazy" src="img/svgicons/tg.svg" alt="tg">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="wow fadeIn" data-wow-delay="800ms">
                                     <img loading="lazy" src="img/svgicons/watsapp.svg" alt="watsapp">
                                 </a>
                             </article>
                         </div>
-                        <div class="contacts__map">
+                        <div class="contacts__map wow fadeInRight" data-wow-delay="1000ms">
                             <picture><source srcset="img/index/map.webp" type="image/webp"><img loading="lazy" src="img/index/map.png" alt="map"></picture>
                         </div>
                     </main>
@@ -1322,7 +1367,7 @@
         <p>Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения подробной информации об услугах, ценах и спецпредложениях, пожалуйста, обратитесь к администратору или менеджеру в клинику превентивной медицины Медфрендс.</p>
     </div>
 </footer>
-<div class="dialogbox dialogbox-antiage">
+<div class="dialogbox dialogbox-directions-1">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1357,7 +1402,7 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-pain">
+<div class="dialogbox dialogbox-directions-2">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1392,7 +1437,7 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-micro">
+<div class="dialogbox dialogbox-directions-3">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1427,7 +1472,7 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-balans">
+<div class="dialogbox dialogbox-directions-4">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1462,7 +1507,7 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-estetic">
+<div class="dialogbox dialogbox-directions-5">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1497,7 +1542,7 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-wellness">
+<div class="dialogbox dialogbox-directions-6">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1532,7 +1577,7 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-checkwoman">
+<div class="dialogbox dialogbox-checkup-1">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1556,10 +1601,27 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-checkman">
+<div class="dialogbox dialogbox-checkup-2">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1583,10 +1645,27 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-checkkid">
+<div class="dialogbox dialogbox-checkup-3">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1610,10 +1689,27 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-checkcardio">
+<div class="dialogbox dialogbox-checkup-4">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1637,10 +1733,27 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-checkonko">
+<div class="dialogbox dialogbox-checkup-5">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1664,10 +1777,27 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-checkprof">
+<div class="dialogbox dialogbox-checkup-6">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1691,10 +1821,27 @@
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-tabBal">
+<div class="dialogbox dialogbox-tab-1">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1729,34 +1876,427 @@
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-modulSpa">
+<div class="dialogbox dialogbox-tab-2">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
             <header class="dialogbox__header">
-                <h2>Услуги данного направления:</h2>
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
             </header>
-            <ul>
-                <li>Ингаляция "Anti-age" (антиоксидантная водородно-кислородная)</li>
-                <li>Интервальная гипо-гиперокситерапии</li>
-                <li>IV-Комплекс Anti-Age (омолаживающий)/ Детокс/Витаминный/Сердечно-сосудистый и др.</li>
-                <li>Внутривенное капельное введение</li>
-                <li>озонированного физиологического раствора – терапия / инъекция - инъекция</li>
-                <li>ВЛОК (внутривенное лазерное облучение крови)</li>
-                <li>УФОК (ультрафиолетовое облучение крови)</li>
-                <li>Вакуумно-роликовый массаж "ICOON Laser"/Массаж лимфодренажный/антицеллюлитный</li>
-                <li>Акупунктурный лифтинг – красота / эстетическая косметология?</li>
-                <li>Карбокситерапия</li>
-                <li>Светотерапия на аппарате Биоптрон</li>
-            </ul>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
             <div class="price">
                 <p>Стоимость:</p>
                 <p>от 40000 Р</p>
             </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
         </div>
     </div>
 </div>
-<div class="dialogbox dialogbox-programPain">
+<div class="dialogbox dialogbox-tab-3">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-4">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-5">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-6">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-7">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-8">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-9">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-10">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-11">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-12">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-tab-13">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Бальнеотерапия</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-1">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -1804,6 +2344,1065 @@ IV-терапия использует способ доставки питат�
                     </div>
                     <button class="btn-round">получить консультацию</button>
                 </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-2">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-3">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-4">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-5">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-6">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-7">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-8">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-9">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-10">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-11">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-12">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-13">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-14">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-15">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-16">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-17">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-program-18">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="dialogbox__with-image">
+                <div class="dialogbox__text">
+                    <header class="dialogbox__header">
+                        <h3>Направление</h3>
+                        <h2>Капельницы здоровья (IV-терапия)</h2>
+                    </header>
+                    <p>
+                        На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+                    </p>
+                </div>
+                <picture><source srcset="img/index/popup.webp" type="image/webp"><img src="img/index/popup.png" alt="popup"></picture>
+            </div>
+            <p>
+                На сегодняшний день IV-терапия (или «капельницы здоровья») одна из наиболее распространенных и доступных медицинских процедур.
+                IV-терапия использует способ доставки питательных веществ в организм, минуя пищеварительную систему, т.е. витамины, минералы и лекарственные вещества напрямую поступают в кровоток для поддержания здоровья. Такой путь оптимален, поскольку в настоящее время у большинства людей наблюдаются различные патологии со стороны пищеварительной системы. IV-терапия дает оптимальную дозу полезных веществ, чтобы повысить их усвоение, за короткие сроки.
+                В комплексной терапии многих заболеваний IV-терапия эффективна как часть лечебного плана. Также IV-терапия может быть назначена врачом-специалистом клиники в превентивных (профилактических) целях.
+            </p>
+            <form action="#" class="dialogbox__with-price">
+                <div class="price">
+                    <p>Стоимость:</p>
+                    <p>от 40000 Р</p>
+                </div>
+                <div class="dialogbox__with-price-inputs">
+                    <div class="dialogbox__with-price-title">
+                        <h3>Оставьте контактный номер и Вам перезвонит наш специалист</h3>
+                        <div class="inputs">
+                            <input
+                                type="text"
+                                name="name"
+                                class="input"
+                                placeholder="Ваше имя"
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                class="input"
+                                placeholder="+7 (9__) ___-__-__"
+                            >
+                        </div>
+                    </div>
+                    <button class="btn-round">получить консультацию</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-modul-1">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Антивозрастная медицина</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-modul-2">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Антивозрастная медицина</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-modul-3">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Антивозрастная медицина</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-forms-1">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Антивозрастная медицина</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-forms-2">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <header class="dialogbox__header">
+                <h3>Направление</h3>
+                <h2>Антивозрастная медицина</h2>
+            </header>
+            <p>
+                Хотите сохранить молодость и здоровье на долгие годы? Наша клиника предлагает услуги антивозрастной медицины. Мы используем передовые методы диагностики и лечения, чтобы замедлить процессы старения и улучшить качество жизни. Запишитесь на консультацию к нашим специалистам и узнайте, как можно сохранить молодость и здоровье.
+            </p>
+            <div class="price">
+                <p>Стоимость:</p>
+                <p>от 40000 Р</p>
+            </div>
+            <form action="#">
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        class="input"
+                        placeholder="Ваше имя"
+                    >
+                    <input
+                        type="text"
+                        name="phone"
+                        class="input"
+                        placeholder="+7 (9__) ___-__-__"
+                    >
+                </div>
+                <button class="btn-round">Отправить заявку</button>
             </form>
         </div>
     </div>
