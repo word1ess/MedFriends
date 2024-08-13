@@ -567,8 +567,8 @@ label.white.border {
     box-sizing: border-box;
     padding: 2.8571428571rem 7.1428571429rem 7.1428571429rem;
     width: 100%;
-    max-width: 1520px;
-    max-height: 75%;
+    max-width: 81%;
+    max-height: 85%;
     background: #fff;
     -webkit-box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
@@ -710,6 +710,9 @@ label.white.border {
     display: flex;
     gap: 2.1428571429rem;
     margin-bottom: 2.1428571429rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 .dialogbox__with-image img {
     display: block;
